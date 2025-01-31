@@ -1,1 +1,1 @@
-.console.log ("Olá Mundo!");
+console.log ('Olá Mundo! "eu" estou bem kkk', 'hoje sao', 10, 'da manha');
