@@ -9,8 +9,21 @@
     
     <script>
         const nome = prompt("digite teu nome completo")
-        document.body.innerHTML += 'o seu nome é: ' 
+        document.body.innerHTML += "o seu nome completo é: "; 
         document.body.innerHTML += nome
+        document.body.innerHTML += "<br /> seu nome tem "
+        document.body.innerHTML += nome.length 
+        document.body.innerHTML += " letras"
+        document.body.innerHTML += "<br /> seu nome em minusculo é "
+        document.body.innerHTML += nome.toUpperCase()
+        document.body.innerHTML += "<br /> As palavras do teu nome é "
+        document.body.innerHTML += nome.split(" ")
+        document.body.innerHTML += "<br> a segunda letra do seu nome é "
+        document.body.innerHTML += nome[1]
+        document.body.innerHTML += "<br> a primeira letra A no seu nome fica em "
+        document.body.innerHTML += nome.indexOf("a")
+        document.body.innerHTML += "<br> as ultimas 3 letras no seu nome são "
+        document.body.innerHTML += nome.slice(-3)
     </script>
 </body>
 </html>
