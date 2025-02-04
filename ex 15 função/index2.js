@@ -1,8 +1,3 @@
-
-
-
-
-
 function soma () {
     const a = (prompt('escolha um numero'))
     const b = (prompt('escolha outro numero'))
@@ -12,6 +7,9 @@ function soma () {
 }
 
 document.body.innerHTML += "o seu resultado foi " + soma()
+
+
+
 
 
 
