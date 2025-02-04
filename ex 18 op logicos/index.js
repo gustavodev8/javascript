@@ -1,7 +1,7 @@
 /*
 OPERADORES LOGICOS 
-&& --> and -> E
-| |-> OR -> ou
+&& --> and -> E  FALSE // TRUE = FALSE (o resultado retornado sera falso mesmo)
+| |-> OR -> ou   FALSE / TRUE = TRUE  (o resultado voltado sera true mesmo)
 ! -> not -> não
 */ 
 
