@@ -1,0 +1,119 @@
+@charset('utf-8');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color:#1B7F7A;
+    color:black;
+}
+
+section {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.452);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    margin-top: 20px;
+    width: 500px;
+    height: 550px;
+    background-color: white;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+ul {
+font-size: 17.5px;
+list-style: none;
+margin-top: 30px;
+padding-right: 15px;
+padding-left: 15px;
+columns: 2;
+}
+
+li {
+    line-height: 23px;
+}
+
+section > h2 {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+.principal{
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: justify;
+}
+
+section > form > p {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+input {
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.submissao {
+    width: 165px;
+    border-radius: 30px; 
+    background-color: #0897B4;
+    border: none;
+    color: white;
+    font-size: 17px;
+}
+.submissao:hover {
+    background-color: #1B7F7A;
+}
+
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+
+div > h1 {
+    font-size: 35px;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 15px;
+    text-align: left;
+}
+
+div > a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding-top: 40px;
+    padding-left: 100px;
+    padding-right: 15px;
+    flex-flow: row;
+
+}
+body > p {
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.452);
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);    
+    margin-top: 20px;
+    width: 500px;
+    text-align: center;
+    background-color: white;
+    border-bottom-right-radius: 10px ;
+    border-bottom-left-radius: 10px ;
+}
